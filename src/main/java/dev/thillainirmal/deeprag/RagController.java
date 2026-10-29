@@ -1,0 +1,2 @@
+package dev.thillainirmal.deeprag;import org.springframework.web.bind.annotation.*;@RestController @RequestMapping("/api")
+public class RagController{private final RagLab lab;public RagController(RagLab l){lab=l;}@PostMapping("/run")public RagLab.Result run(@RequestBody Query q){return lab.run(q.query(),q.domain());}@GetMapping("/demo")public RagLab.Result demo(){return lab.run("How should services recover from repeated dependency failure?","engineering");}public record Query(String query,String domain){}}

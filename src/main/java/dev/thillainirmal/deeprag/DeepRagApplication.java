@@ -1,0 +1,1 @@
+package dev.thillainirmal.deeprag;import org.springframework.boot.*;import org.springframework.boot.autoconfigure.*;@SpringBootApplication public class DeepRagApplication{public static void main(String[]a){SpringApplication.run(DeepRagApplication.class,a);}}

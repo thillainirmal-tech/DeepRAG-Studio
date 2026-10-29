@@ -1,0 +1,3 @@
+spring.application.name: deeprag-studio
+server.port: ${PORT:8086}
+management.endpoints.web.exposure.include: health,info
