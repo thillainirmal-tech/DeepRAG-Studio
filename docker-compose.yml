@@ -1,0 +1,10 @@
+services:
+  deeprag:
+    build: .
+    ports: ["8086:8086"]
+    environment: ["DEEPRAG_STORE_PATH=/data/corpus.json"]
+    volumes: ["deeprag-data:/data"]
+    read_only: true
+    tmpfs: ["/tmp"]
+    security_opt: ["no-new-privileges:true"]
+volumes: {deeprag-data: {}}
