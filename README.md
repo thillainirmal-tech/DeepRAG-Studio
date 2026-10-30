@@ -12,4 +12,4 @@ Run `mvn spring-boot:run`, open http://localhost:8086, and verify using `mvn ver
 
 Roadmap: pluggable embedding/reranking adapters, nDCG and latency comparison, and pgvector for large corpora.
 
-Apache-2.0. Synthetic corpus only.
+Apache-2.0. Never commit confidential corpus data; inject production content through the authenticated deployment boundary.
