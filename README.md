@@ -10,6 +10,8 @@ An offline-first Java retrieval service that makes six advanced RAG patterns vis
 
 [Open the full-resolution screenshot](docs/media/product-console.jpg) · **Recruiter demo:** ingest a corpus item, run the six-pattern pipeline, inspect ranked evidence, then verify recall@4 and reciprocal rank.
 
+[▶ Watch the recorded working demo (5 seconds)](docs/media/runtime-demo.mp4)
+
 > **Deployment status:** tested, containerized and ready for an AWS deployment; no public production endpoint is claimed yet.
 
 Patterns: query rewriting, multi-query retrieval, HyDE, metadata filtering, reciprocal-rank fusion with re-ranking, and contextual compression.
