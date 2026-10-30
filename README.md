@@ -4,6 +4,14 @@ An offline-first Java retrieval service that makes six advanced RAG patterns vis
 
 [![CI](https://github.com/thillainirmal-tech/DeepRAG-Studio/actions/workflows/ci.yml/badge.svg)](https://github.com/thillainirmal-tech/DeepRAG-Studio/actions/workflows/ci.yml)
 
+## Product tour
+
+![DeepRAG Studio retrieval experiment console](docs/media/product-tour.gif)
+
+[Open the full-resolution screenshot](docs/media/product-console.jpg) · **Recruiter demo:** ingest a corpus item, run the six-pattern pipeline, inspect ranked evidence, then verify recall@4 and reciprocal rank.
+
+> **Deployment status:** tested, containerized and ready for an AWS deployment; no public production endpoint is claimed yet.
+
 Patterns: query rewriting, multi-query retrieval, HyDE, metadata filtering, reciprocal-rank fusion with re-ranking, and contextual compression.
 
 Run `mvn spring-boot:run`, open http://localhost:8086, and verify using `mvn verify`.
